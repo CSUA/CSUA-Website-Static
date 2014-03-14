@@ -17,6 +17,7 @@
     line-height: 26px;
     font-weight: 300;
     font-style: italic;
+    margin-top: 5px;
 }
 .link {
     color: #629632;
@@ -32,6 +33,7 @@
     font-size: 17px;
     font-weight: 700;
     color: black;
+    margin-bottom: 10px;
 }
 #panels {
     margin-top: 20px;
@@ -39,6 +41,9 @@
 }
 .panel {
     display: none;
+}
+#hack {
+    display: block;
 }
 .tab {
     display: inline-block;
@@ -68,8 +73,25 @@
     font-weight: 500;
     color: grey;
 }
+#crefresher {
+    height: 170px;
+}
+#intel {
+    height: 177px;
+}
+#oxygencloud {
+    height: 267px;
+}
+#welcomesocial {
+    height: 162px;
+}
 #captureflag {
     height: 170px;
     margin: 5px 0px;
 }
-
+#wozvegas {
+    height: 223px;
+}
+#gm2 {
+    height: 206px;
+}
