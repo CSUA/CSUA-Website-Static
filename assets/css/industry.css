@@ -1,0 +1,126 @@
+html {
+    background-color: #c1c0c0;
+}
+body {
+    margin: 0px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+}
+#header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+#headerbar {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    display: inline-block;
+    float: left;
+    height: 45px;
+    padding: 8px 0px 8px 30px;
+    margin-left: 30px;
+}
+#csua {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 200;
+    float: left;
+    margin: 6px 30px 0px 100px;
+}
+#headerlinks {
+    margin: 8px 30px 0px;
+    display: inline-block;
+    float: right;
+}
+.header-item {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 100;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-link {
+    color: white;
+}
+#about {
+    position: relative;
+    display: none;
+}
+#dropdownabout {
+    position: absolute;
+    z-index: 10;
+    margin-top: 5px;
+    background-color: #333;
+    padding: 5px 0px;
+    margin-left: -10px;
+    border-radius: 2px;
+}
+.dropdownitem {
+    color: white;
+    padding: 0px 10px;
+}
+img {
+    height: 100%;
+}
+#content {
+    margin: 0px auto;
+    background-color: #e4e3e2;
+    width: 960px;
+    padding: 80px 20px 20px;
+}
+.clear {
+    clear: both;
+}
+.block {
+    width: 460px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.header {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.text {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+}
+#block1 {
+    width: 380px;
+    float: right;
+    display: inline-block;
+    margin-top: 25px;
+}
+#block2 {
+    width: 550px;
+    float: left;
+    display: inline-block;
+}
+#industrypicture {
+    height: 346px;
+}
+.linkheader {
+    margin-bottom: 5px;
+    color: #629632;
+}
+.sponsor {
+    margin-bottom: 10px;
+}
+#block4 {
+    float: right;
+}
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.credit {
+    color: #629632;
+    display: inline;
+}
