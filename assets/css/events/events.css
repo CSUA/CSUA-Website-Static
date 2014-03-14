@@ -33,12 +33,12 @@
     font-weight: 700;
     color: black;
 }
-#past-events {
-    margin-top: 30px;
-}
 #panels {
     margin-top: 20px;
     border-bottom: black solid 2px;
+}
+.panel {
+    display: none;
 }
 .tab {
     display: inline-block;
@@ -68,3 +68,8 @@
     font-weight: 500;
     color: grey;
 }
+#captureflag {
+    height: 170px;
+    margin: 5px 0px;
+}
+
