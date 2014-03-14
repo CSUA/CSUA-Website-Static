@@ -29,19 +29,13 @@
     font-size: 17px;
     font-weight: 700;
 }
-.hackplus {
-    height: 170px;
-    margin: 7px 0px;
+.timelocation {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
 }
-.hknlan {
+#captureflag {
     height: 170px;
-    margin: 7px 0px;
-}
-.gm2 {
-    height: 170px;
-    margin: 7px 0px;
-}
-.gradpanel {
-    height: 133px;
-    margin: 7px 0px;
+    margin: 5px 0px;
 }
