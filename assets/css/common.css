@@ -181,8 +181,17 @@ a {
     font-weight: 500;
     color: grey;
 }
+@media (min-width: 880px) {
+    .text {
+        font-size: 14px;
+    }
+}
+@media (max-width: 880px) {
+    .text {
+        font-size: 18px;
+    }
+}
 .text {
-    font-size: 14px;
     line-height: 26px;
     font-weight: 300;
 }
