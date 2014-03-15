@@ -8,82 +8,77 @@
     <script src="../assets/js/script.js"></script>
 </head>
 <body>
-    <div id="header">
-        <div id="headerbar">
+    <div id="navbarcontainer">
+        <div id="navbar">
             <div id="logo">
-                <a href="http://csua.berkeley.edu/index.html">
+                <a href="../index.html">
                 <img src="../assets/images/header.png">
                 </a>
             </div>
             <div id="csua">
-                <a href="http://csua.berkeley.edu/index.html">
-                    <div class="header-link">CSUA</div>
+                <a href="../index.html">
+                    <div class="navlink">CSUA</div>
                 </a>
             </div>
-            <div id="headerlinks">
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/index.html">
-                        <div class="header-link">Home</div>
+            <div id="navsection">
+                <div class="navitem navitemwithdropdown">
+                    <a href="../about.html">
+                        <div class="navlink">About</div>
                     </a>
-                </div>
-                <div id="about-header" class="header-item">
-                    <a href="http://csua.berkeley.edu/about.html">
-                        <div class="header-link">About</div>
-                    </a>
-                    <div id="about">
-                        <div id="dropdownabout">
-                            <a href="http://csua.berkeley.edu/politburo.html">
-                                <div class="dropdownitem">Politburo</div>
-                            </a>
-                            <a href="http://csua.berkeley.edu/officers.html">
-                                <div class="dropdownitem">Officers</div>
-                            </a>
-                            <a href="http://csua.berkeley.edu/constitution.html">
-                                <div class="dropdownitem">Constitution</div>
-                            </a>
-                        </div>
+                    <div class="dropdown">
+                        <a href="../politburo.html">
+                            <div class="dropdownitem">Politburo</div>
+                        </a>
+                        <a href="../officers.html">
+                            <div class="dropdownitem">Officers</div>
+                        </a>
+                        <a href="../constitution.html">
+                            <div class="dropdownitem">Constitution</div>
+                        </a>
                     </div>
                 </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/events.html">
-                        <div class="header-link">Events</div>
+                <div class="navitem navitemwithdropdown">
+                    <a href="../events.html">
+                        <div class="navlink">Events</div>
+                    </a>
+                    <div class="dropdown">
+                        <a href="../events/fall2013.html">
+                            <div class="dropdownitem">Fall 2013</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="navitem">
+                    <a href="../industry.html">
+                        <div class="navlink">Industry</div>
                     </a>
                 </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/industry.html">
-                        <div class="header-link">Industry</div>
+                <div class="navitem">
+                    <a href="../donate.html">
+                        <div class="navlink">Donate</div>
                     </a>
                 </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/donate.html">
-                        <div class="header-link">Donate</div>
-                    </a>
-                </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/join.html">
-                        <div class="header-link">Join</div>
+                <div class="navitem">
+                    <a href="../join.html">
+                        <div class="navlink">Join</div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <div id="content">
-        <div class="about">
-            <div class="header">
-                Officers
-            </div>
-            <div class="text">
-                Are you new to Berkeley? New to CS? Need help with class? Want people to
-                talk to? Come by the office and meet some of our officers! They're here
-                to help you and keep the office tidy and fun. <br>
-                <i> Webmaster Note </i> : This page is currently under construction. Keep an eye
-                out for new additions to the page! <br>
-                The following officers are not yet pictured: Andre Crabb, Benj Shapiro,
-                Brandon Jones, Diego Kiner, Gilbert Hsyu, Jay Adkisson, Rodney Folz,
-                Tristan Killeen.
-            </div>
+        <div class="header">Officers</div>
+        <div class="text">
+            Are you new to Berkeley? New to CS? Need help with class? Want people to
+            talk to? Come by the office and meet some of our officers! They're here
+            to help you and keep the office tidy and fun. <br>
+            <i> Webmaster Note </i> : This page is currently under construction. Keep an eye
+            out for new additions to the page! <br>
+            The following officers are not yet pictured: Andre Crabb, Benj Shapiro,
+            Brandon Jones, Diego Kiner, Gilbert Hsyu, Jay Adkisson, Rodney Folz,
+            Tristan Killeen.
         </div>
-        <div id="block1">
+        <div class="blockseparation"></div>
+        <div class="column columnleft">
             <div class="officer">
                 <div class="photoone">
                     <img src="../assets/images/officers/albert1.jpg">
@@ -238,7 +233,7 @@
                 </div>
             </div>
         </div>
-        <div id="block2">
+        <div class="column columnright">
             <div class="officer">
                 <div class="photoone">
                     <img src="../assets/images/officers/kara1.jpg">
@@ -368,7 +363,7 @@
                 </div>
                 <div class="info">
                     <div class="name">Shrayus Gupta</div>
-                    <div class="officehours"></div>
+                    <div class="officehours">TBA</div>
                     <div class="description">
                         "Life, liberty, and the pursuit of happiness. I know a little bit
                         about computer hardware, not sure if that helps. I can also help
@@ -390,23 +385,3 @@
     </div>
 </body>
 </html>
-<!--
-					<li><b>Benjamin Shapiro</b> Mondays 1PM-2PM <br>"I'm a bawss at web development
-					also I rock at machine learning and I am awesome at being a good person. Have taken CS3, CS61 Series, CS160/170/188/189 EE42, Math1A/1B/53/54"</li>
-
-					<li><b>Rodney Folz</b> Tuesdays 1PM-2PM <br>"Rhetoric" </li>
-					
-					<li><b>Tristan Killeen</b> Thursdays 8PM-9PM <br>"Humourology, Differentiating Colors, Can make a "Hand Submarine" (ask about this), Can bluff knowledge about any given subject decently."</li>
-
-					<li><b>André Crabb</b> Wednesdays 1:30PM-2:30PM <br>"Random Skills: Music, Drumming, Salsa Dancing."</li>
-
-					<li><b>Brandon Jones</b>  TBA</li>
-			
-				<li><b>Tirumari Jothi</b> Thursdays 11AM-12PM <br>"I'm the resident digital artist... I HAVE NO PROGRAMMING SKILLS :C"</li>
-
-				<li><b>Jay Adkisson</b> TBA <br>"I'm into programming languages and math" </li>
-
-				<li><b>Gilbert Hsyu</b> TBA <br>"Math"</li>
-
-				<li><b>Diego Kiner</b> Mondays 3PM-4PM <br>"I'm an EECS major who also likes physics and maths, so I can help with most lower div CS, physics, and math classes. I also like making music :)"</li>	
---!>

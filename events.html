@@ -3,65 +3,63 @@
     <title>Events | CSUA</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/events/events.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/events.css"/>
     <script src="assets/js/jquery-1.9.1.js"></script>
     <script src="assets/js/script.js"></script>
 </head>
 <body>
-    <div id="header">
-        <div id="headerbar">
+    <div id="navbarcontainer">
+        <div id="navbar">
             <div id="logo">
-                <a href="http://csua.berkeley.edu/index.html">
+                <a href="index.html">
                 <img src="assets/images/header.png">
                 </a>
             </div>
             <div id="csua">
-                <a href="http://csua.berkeley.edu/index.html">
-                    <div class="header-link">CSUA</div>
+                <a href="index.html">
+                    <div class="navlink">CSUA</div>
                 </a>
             </div>
-            <div id="headerlinks">
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/index.html">
-                        <div class="header-link">Home</div>
+            <div id="navsection">
+                <div class="navitem navitemwithdropdown">
+                    <a href="about.html">
+                        <div class="navlink">About</div>
                     </a>
-                </div>
-                <div id="about-header" class="header-item">
-                    <a href="http://csua.berkeley.edu/about.html">
-                        <div class="header-link">About</div>
-                    </a>
-                    <div id="about">
-                        <div id="dropdownabout">
-                            <a href="http://csua.berkeley.edu/politburo.html">
-                                <div class="dropdownitem">Politburo</div>
-                            </a>
-                            <a href="http://csua.berkeley.edu/officers.html">
-                                <div class="dropdownitem">Officers</div>
-                            </a>
-                            <a href="http://csua.berkeley.edu/constitution.html">
-                                <div class="dropdownitem">Constitution</div>
-                            </a>
-                        </div>
+                    <div class="dropdown">
+                        <a href="politburo.html">
+                            <div class="dropdownitem">Politburo</div>
+                        </a>
+                        <a href="officers.html">
+                            <div class="dropdownitem">Officers</div>
+                        </a>
+                        <a href="constitution.html">
+                            <div class="dropdownitem">Constitution</div>
+                        </a>
                     </div>
                 </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/events.html">
-                        <div class="header-link">Events</div>
+                <div class="navitem navitemwithdropdown">
+                    <a href="events.html">
+                        <div class="navlink">Events</div>
+                    </a>
+                    <div class="dropdown">
+                        <a href="/events/fall2013.html">
+                            <div class="dropdownitem">Fall 2013</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="navitem">
+                    <a href="industry.html">
+                        <div class="navlink">Industry</div>
                     </a>
                 </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/industry.html">
-                        <div class="header-link">Industry</div>
+                <div class="navitem">
+                    <a href="donate.html">
+                        <div class="navlink">Donate</div>
                     </a>
                 </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/donate.html">
-                        <div class="header-link">Donate</div>
-                    </a>
-                </div>
-                <div class="header-item">
-                    <a href="http://csua.berkeley.edu/join.html">
-                        <div class="header-link">Join</div>
+                <div class="navitem">
+                    <a href="join.html">
+                        <div class="navlink">Join</div>
                     </a>
                 </div>
             </div>
@@ -77,56 +75,24 @@
                 <a href="#meeting"><div class="tab">Meeting</div></a>
             </div>
             <div id="hack" class="panel">
-                <div id="block3" class="block">
-                    <div class="event">
-                        <a href="https://www.facebook.com/events/281190872030733/">
-                            <div class="event-name">Open Stack Training</div>
-                        </a>
-                        <div class="timelocation">February 10-13, 2014. 7:30-10:30 PM. HP Auditorium.</div>
-                        <div class="text">
-                            OpenStack is open source software that can help you roll your own
-                            hosting and VM services like Heroku or AWS. It provides a Hypervisor
-                            (OS Virualization layer) and tools to manage networking, computational
-                            resources, and storage on your VMs across different kinds of
-                            hardware. Come if you are interested in network engineering, the future
-                            of system administration, running your own servers, SAAS, or cloud
-                            computing.
-                        </div>
-                    </div>
-                    <div class="event">
-                        <a href="https://www.facebook.com/events/453819638079299/">
-                            <div class="event-name">C Refresher Session</div>
-                        </a>
-                        <div id="crefresher">
-                            <img src="assets/images/events/spring2014/crefresher.jpg">
-                        </div>
-                        <div class="timelocation">Saturday, February 1, 2014. 2-4 PM. HP Auditorium.</div>
-                        <div class="text">
-                            Professor David Wagner asked us to do a C Refresher session for
-                            CS161, so we will be holding one as the first project is released!</br>
-                            Topics: pointers & how pointers are stored in memory; structs,
-                            C Arrays, Strings; memory layout (stack frames); brief tutorial on gdb</br>
-                        </div>
-                    </div>
-                </div>
-                <div id="block4" class="block">
-                    <div class="event">
+                <div class="column columnleft">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/1454599134760277/">
                             <div class="event-name">UNIX/Vim Workshop</div>
                         </a>
-                        <div class="timelocation">Tuesday, January 28, 2014. 6 PM. HP Auditorium.</div>
+                        <div class="event-timelocation">Tuesday, January 28, 2014. 6 PM. HP Auditorium.</div>
                         <div class="text">
                             Learn basic Unix and Vim in a workshop geared towards 61A/B students.
                         </div>
                     </div>
-                    <div class="event">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/215689138624129/">
                             <div class="event-name">Code for Good: A Hardware-Software Hackathon with Intel</div>
                         </a>
-                        <div id="intel">
+                        <div class="event-photo">
                             <img src="assets/images/events/spring2014/intel.jpg">
                         </div>
-                        <div class="timelocation">February 15 at 5 PM - February 16 at 5 PM. Woz.</div>
+                        <div class="event-timelocation">February 15 at 5 PM - February 16 at 5 PM. Woz.</div>
                         <div class="text">
                             CSUA is partnering with Intel for an exciting 24-hour hardware +
                             software hackathon revolving around the exciting new Intel Galileo
@@ -137,17 +103,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="column columnright">
+                    <div class="event block">
+                        <a href="https://www.facebook.com/events/453819638079299/">
+                            <div class="event-name">C Refresher Session</div>
+                        </a>
+                        <div class="event-photo">
+                            <img src="assets/images/events/spring2014/crefresher.jpg">
+                        </div>
+                        <div class="event-timelocation">Saturday, February 1, 2014. 2-4 PM. HP Auditorium.</div>
+                        <div class="text">
+                            Professor David Wagner asked us to do a C Refresher session for
+                            CS161, so we will be holding one as the first project is released!</br>
+                            Topics: pointers & how pointers are stored in memory; structs,
+                            C Arrays, Strings; memory layout (stack frames); brief tutorial on gdb</br>
+                        </div>
+                    </div>
+                    <div class="event block">
+                        <a href="https://www.facebook.com/events/281190872030733/">
+                            <div class="event-name">Open Stack Training</div>
+                        </a>
+                        <div class="event-timelocation">February 10-13, 2014. 7:30-10:30 PM. HP Auditorium.</div>
+                        <div class="text">
+                            OpenStack is open source software that can help you roll your own
+                            hosting and VM services like Heroku or AWS. It provides a Hypervisor
+                            (OS Virualization layer) and tools to manage networking, computational
+                            resources, and storage on your VMs across different kinds of
+                            hardware. Come if you are interested in network engineering, the future
+                            of system administration, running your own servers, SAAS, or cloud
+                            computing.
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="info" class="panel">
-                <div id="block3" class="block">
-                    <div class="event">
+                <div class="column columnleft">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/242245595955760/">
                             <div class="event-name">Hack++ with Oxygen Cloud</div>
                         </a>
-                        <div id="oxygencloud">
+                        <div class="event-photo">
                             <img src="assets/images/events/spring2014/oxygencloud.jpg">
                         </div>
-                        <div class="timelocation">Sunday, February 23, 2014. 4 PM. Woz.</div>
+                        <div class="event-timelocation">Sunday, February 23, 2014. 4 PM. Woz.</div>
                         <div class="text">
                             It's the return of the Hack++! We do all the normal things we do
                             at Hack+s (every Sunday at 4pm in the Woz) like study, socialize,
@@ -157,30 +155,30 @@
                         </div>
                     </div>
                 </div>
-                <div id="block4" class="block">
+                <div class="column columnright">
                 </div>
             </div>
             <div id="social" class="panel">
-                <div id="block3" class="block">
-                    <div class="event">
+                <div class="column columnleft">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/564947033591533/">
                             <div class="event-name">Welcome Social</div>
                         </a>
-                        <div id="welcomesocial">
+                        <div class="event-photo">
                             <img src="assets/images/events/spring2014/welcomesocial.jpg">
                         </div>
-                        <div class="timelocation">Friday, January 24, 2014. 5 PM. Woz.</div>
+                        <div class="event-timelocation">Friday, January 24, 2014. 5 PM. Woz.</div>
                         <div class="text">
                             Ease back into the school year with an evening of free pizza,
                             soft drinks, desserts, and pizza while chatting up your peers
                             in CS. And eating pizza.
                         </div>
                     </div>
-                    <div class="event">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/274356936055062">
                             <div class="event-name">CSUA Alumni BBQ</div>
                         </a>
-                        <div class="timelocation">Saturday, April 26, 2014. 12 PM. Woz.</div>
+                        <div class="event-timelocation">Saturday, April 26, 2014. 12 PM. Woz.</div>
                         <div class="text">
                             Want to run around in chasing people in circles? If so, come play
                             capture the flag with your fellow EECS friends! Light refreshments
@@ -188,15 +186,15 @@
                         </div>
                     </div>
                 </div>
-                <div id="block4" class="block">
-                    <div class="event">
+                <div class="column columnright">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/763596986998153/">
                             <div class="event-name">Capture the Flag with HKN & H@B</div>
                         </a>
-                        <div id="captureflag">
+                        <div class="event-photo">
                             <img src="assets/images/events/spring2014/captureflag.jpg">
                         </div>
-                        <div class="timelocation">Wednesday, March 19, 2014. 10 PM. VLSB.</div>
+                        <div class="event-timelocation">Wednesday, March 19, 2014. 10 PM. VLSB.</div>
                         <div class="text">
                             Want to run around in chasing people in circles? If so, come play
                             capture the flag with your fellow EECS friends! Light refreshments
@@ -206,15 +204,15 @@
                 </div>
             </div>
             <div id="meeting" class="panel">
-                <div id="block3" class="block">
-                    <div class="event">
+                <div class="column columnleft">
+                    <div class="event block">
                         <a href="">
                             <div class="event-name">General Meeting 1: Woz Vegas</div>
                         </a>
-                        <div id="wozvegas">
+                        <div class="event-photo">
                             <img src="assets/images/events/spring2014/wozvegas.jpg">
                         </div>
-                        <div class="timelocation">Friday, February 7, 2014. 5 PM. Woz.</div>
+                        <div class="event-timelocation">Friday, February 7, 2014. 5 PM. Woz.</div>
                         <div class="text">
                             Join us for a night of excitement and irresistible fun at the
                             Lounge that never sleeps: Wozniak Lounge. The event will consist of
@@ -225,15 +223,15 @@
                         </div>
                     </div>
                 </div>
-                <div id="block4" class="block">
-                    <div class="event">
+                <div class="column columnright">
+                    <div class="event block">
                         <a href="https://www.facebook.com/events/366497816824975/">
                             <div class="event-name">General Meeting 2: Speakers from Prismatic</div>
                         </a>
-                        <div id="gm2">
+                        <div class="event-photo">
                             <img src="assets/images/events/spring2014/gm2.jpg">
                         </div>
-                        <div class="timelocation">Wednesday, March 5, 2014. 7 PM. HP Auditorium.</div>
+                        <div class="event-timelocation">Wednesday, March 5, 2014. 7 PM. HP Auditorium.</div>
                         <div class="text">
                             We're having our 2nd General Meeting! Enjoy a nice dinner, socialize,
                             and listen to our guest speaker Jenny Finkel, the Chief Software
@@ -245,8 +243,7 @@
                             the course of her academic career she published seventeen different
                             papers on machine learning and natural language processing, and
                             created the widely-used Stanford Named Entity Recognition software
-                            package. Afterwards, socialize with other Prismatic engineers and
-                            raid Menchie's with us!
+                            package.
                         </div>
                     </div>
                 </div>
@@ -255,8 +252,8 @@
         <div class="clear"></div>
         <div id="past-semesters">
             <div class="header">Past Semesters</div>
-            <a href="http://csua.berkeley.edu/events/fall2013.html">
-                <div class="greylinkheader">Fall 2013</div>
+            <a href="events/fall2013.html">
+                <div class="greyheaderlink">Fall 2013</div>
             </a>
         </div>
         <div class="clear"></div>

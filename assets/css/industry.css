@@ -1,40 +1,9 @@
-.block {
-    width: 460px;
-    display: inline-block;
-    margin-top: 10px;
-}
-.header {
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 22px;
-    font-weight: 500;
-}
-.text {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 300;
-}
 #block1 {
-    width: 380px;
-    float: right;
-    display: inline-block;
-    margin-top: 25px;
+    width: 530px;
 }
 #block2 {
-    width: 550px;
-    float: left;
-    display: inline-block;
-}
-#industrypicture {
-    height: 346px;
-}
-.linkheader {
-    margin-bottom: 5px;
-    color: #629632;
+    width: 380px;
 }
 .sponsor {
     margin-bottom: 10px;
-}
-#block4 {
-    float: right;
 }

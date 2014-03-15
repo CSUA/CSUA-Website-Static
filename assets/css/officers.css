@@ -1,45 +1,22 @@
-.header {
-    margin-bottom: 5px;
-    font-size: 22px;
-    font-weight: 500;
-}
-.text {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-.about {
-    margin-bottom: 20px;
-}
-#block1 {
-    width: 460px;
-    display: inline-block;
-}
-#block2 {
-    width: 460px;
-    float: right;
-    display: inline-block;
-}
 .officer {
     height: 260px;
 }
 .photoone {
-    height: 250px;
+    width: 250px;
     display: inline-block;
     float: left;
     position: relative;
     z-index: 2;
 }
 .phototwo {
-    height: 250px;
+    width: 250px;
     display: none;
     float: left;
     position: absolute;
     z-index: 1;
 }
 .singlephoto {
-    height: 250px;
+    width: 250px;
     display: inline-block;
     float: left;
 }
@@ -61,10 +38,4 @@
 }
 #past-officers {
     margin-top: 20px;
-}
-.greylinkheader {
-    margin-bottom: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    color: grey;
 }

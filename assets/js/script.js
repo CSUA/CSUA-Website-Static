@@ -1,10 +1,15 @@
 $(document).ready(function(){
 
     /* Navigation Bar */
-    $('#about-header').hover(function() {
-        $('#about').show();
+    $('.navitemwithdropdown').hover(function() {
+        $(this).find('.dropdown').show();
     }, function() {
-        $('#about').hide();
+        $(this).find('.dropdown').hide();
+    });
+    $('.dropdown').hover(function() {
+        $(this).show();
+    }, function() {
+        $(this).hide();
     });
     $('.dropdownitem').hover(function() {
         $(this).css({'background-color': '#555'});
@@ -12,28 +17,23 @@ $(document).ready(function(){
         $(this).css({'background-color': '#333'});
     });
 
-    /* Links*/
-    $('.linkheader').hover(function() {
-        $(this).css({'color': '#7fa958'});
+    /* Links */
+    $('.blueheaderlink').hover(function() {
+        $(this).css({'color': '#0075cb'});
     }, function() {
-        $(this).css({'color': '#629632'});
+        $(this).css({'color': '#005fa3'});
     });
-    $('.greylinkheader').hover(function() {
+    $('.greyheaderlink').hover(function() {
         $(this).css('color', '#333');
     }, function() {
         $(this).css('color', 'grey');
     });
-    $('.link').hover(function() {
-        $(this).css({'color': 'grey'});
-    }, function() {
-        $(this).css({'color': 'black'});
-    });
 
     /* Footer */
-    $('.credit').hover(function() {
-        $(this).css({'color': '#7fa958'});
+    $('.creditblue').hover(function() {
+        $(this).css({'color': '#0075cb'});
     }, function() {
-        $(this).css({'color': '#629632'});
+        $(this).css({'color': '#005fa3'});
     });
     $('.creditgrey').hover(function() {
         $(this).css({'color': 'black'});
@@ -41,7 +41,6 @@ $(document).ready(function(){
         $(this).css({'color': 'grey'});
     });
 
-    
     /* Events */
     $('.event-name').hover(function() {
         $(this).css({'color': 'grey'});
