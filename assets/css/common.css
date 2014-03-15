@@ -28,22 +28,58 @@ a {
     z-index: 100;
     height: 60px;
 }
-#navbar {
-    width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    padding: 0px 40px;
+@media (min-width: 1020px) {
+    #navbar {
+        width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        padding: 0px 40px;
+    }
+    #logo {
+        display: inline-block;
+    }
+    #csua {
+        margin: 12px 0px 0px 70px;
+    }
+}
+@media (max-width: 1020px) {
+    #navbar {
+        width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        padding: 0px 40px;
+    }
+    #logo {
+        display: inline-block;
+    }
+    #csua {
+        margin: 12px 0px 0px 70px;
+    }
+}
+@media (max-width: 880px) {
+    #navbar {
+        width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        padding: 0px 40px;
+    }
+    #logo {
+        display: none;
+    }
+    #csua {
+        margin: 12px 0px 0px;
+    }
 }
 #logo {
-    display: inline-block;
     margin: 6px 0px;
     width: 60px;
     float: left;
 }
 #csua {
     display: inline-block;
-    margin: 12px 0px 0px 70px;
     font-size: 25px;
     font-weight: 300;
     float: left;
@@ -79,21 +115,42 @@ a {
 }
 
 /* Content Containers */
-#content {
-    margin: 0px auto;
-    background-color: #e4e3e2;
-    width: 960px;
-    padding: 80px 20px 20px;
+@media (min-width: 1020px) {
+    #content {
+        margin: 0px auto;
+        background-color: #e4e3e2;
+        width: 960px;
+        padding: 80px 20px 20px;
+    }
+    .column {
+        display: inline-block;
+        width: 470px;
+    }
+    .columnleft {
+        float: left;
+    }
+    .columnright {
+        float: right;
+    }
+    .responsivehidden {
+        display: none;
+    }
 }
-.column {
-    display: inline-block;
-    width: 470px;
+@media (max-width: 1020px) {
+    #content {
+        margin: 0px auto;
+        background-color: #e4e3e2;
+        width: 800px;
+        padding: 80px 20px 20px;
+    }
 }
-.columnleft {
-    float: left;
-}
-.columnright {
-    float: right;
+@media (max-width: 880px) {
+    #content {
+        margin: 0px auto;
+        background-color: #e4e3e2;
+        width: 600px;
+        padding: 80px 20px 20px;
+    }
 }
 .block {
     border: 1px solid #c1c0c0;

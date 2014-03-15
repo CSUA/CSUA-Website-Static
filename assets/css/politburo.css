@@ -4,11 +4,33 @@
 .pbphoto {
     display: inline-block;
     float: left;
-    width: 300px;
+}
+@media (min-width: 1020px) {
+    .pbphoto {
+        width: 300px;
+    }
+    .info {
+        width: 600px;
+    }
+}
+@media (max-width: 1020px) {
+    .pbphoto {
+        width: 300px;
+    }
+    .info {
+        width: 470px;
+    }
+}
+@media (max-width: 880px) {
+    .pbphoto {
+        width: 250px;
+    }
+    .info {
+        width: 320px;
+    }
 }
 .info {
     display: inline-block;
-    width: 600px;
     margin-left: 30px;
 }
 .name {

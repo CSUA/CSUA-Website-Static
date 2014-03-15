@@ -1,8 +1,10 @@
-#block1 {
-    width: 530px;
-}
-#block2 {
-    width: 380px;
+@media (min-width: 1020px) {
+    #block1 {
+        width: 530px;
+    }
+    #block2 {
+        width: 380px;
+    }
 }
 .sponsor {
     margin-bottom: 10px;
