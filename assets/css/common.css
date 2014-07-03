@@ -227,3 +227,19 @@ a {
     color: grey;
     display: inline;
 }
+
+/* Emails */
+@media (min-width: 880px) {
+    .tex {
+        height: 14px;
+        margin-bottom: -3px;
+        width: auto;
+    }
+}
+@media (max-width: 880px) {
+    .tex {
+        height: 18px;
+        margin-bottom: -4px;
+        width: auto;
+    }
+}
