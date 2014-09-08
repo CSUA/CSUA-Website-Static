@@ -1,22 +1,5 @@
 $(document).ready(function(){
 
-    /* Navigation Bar */
-    $('.navitemwithdropdown').hover(function() {
-        $(this).find('.dropdown').show();
-    }, function() {
-        $(this).find('.dropdown').hide();
-    });
-    $('.dropdown').hover(function() {
-        $(this).show();
-    }, function() {
-        $(this).hide();
-    });
-    $('.dropdownitem').hover(function() {
-        $(this).css({'background-color': '#555'});
-    }, function() {
-        $(this).css({'background-color': '#333'});
-    });
-
     /* Links */
     $('.blueheaderlink').hover(function() {
         $(this).css({'color': '#0075cb'});

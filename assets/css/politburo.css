@@ -34,6 +34,7 @@
     background: white;
     padding: 10px;
     margin: 10px 0 20px;
+    border: 1px solid #CCC;
 }
 .pbroster > tbody > tr:nth-child(2n+1) > td {
     width: 25%;
