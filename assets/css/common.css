@@ -143,16 +143,12 @@ a {
     font-size: 22px;
     font-weight: 400;
 }
-.blueheaderlink {
+.subheader {
     font-size: 18px;
     font-weight: 600;
-    color: #005fa3;
 }
-.greyheaderlink {
-    margin-bottom: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    color: grey;
+.subheader > a {
+    color: blue;
 }
 .text {
     font-size: 14px;
@@ -186,18 +182,17 @@ a {
     text-align: center;
     margin-top: 20px;
 }
-.creditblue {
+.blue {
     color: #005fa3;
     display: inline;
 }
-.creditgrey {
+.blue:hover {
+    color: #0075cb;
+}
+.grey {
     color: grey;
     display: inline;
 }
-
-/* Emails */
-.tex {
-    height: 14px;
-    margin-bottom: -3px;
-    width: auto;
+.grey:hover {
+    color: black;
 }

@@ -1,29 +1,5 @@
 $(document).ready(function(){
 
-    /* Links */
-    $('.blueheaderlink').hover(function() {
-        $(this).css({'color': '#0075cb'});
-    }, function() {
-        $(this).css({'color': '#005fa3'});
-    });
-    $('.greyheaderlink').hover(function() {
-        $(this).css('color', '#333');
-    }, function() {
-        $(this).css('color', 'grey');
-    });
-
-    /* Footer */
-    $('.creditblue').hover(function() {
-        $(this).css({'color': '#0075cb'});
-    }, function() {
-        $(this).css({'color': '#005fa3'});
-    });
-    $('.creditgrey').hover(function() {
-        $(this).css({'color': 'black'});
-    }, function() {
-        $(this).css({'color': 'grey'});
-    });
-
     /* Events */
     $('.tab').hover(function() {
         $('.tab').removeClass('tabhover');
