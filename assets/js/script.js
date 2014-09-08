@@ -16,15 +16,4 @@ $(document).ready(function(){
         $(panel_id).show();
     });
 
-    /* Officers */
-    $('.photoone').hover(function() {
-        $(this).next().css({'z-index': '3'});
-        $(this).next().fadeIn(400);
-    }, function() {
-    });
-    $('.phototwo').hover(function() {
-    }, function() {
-        $(this).stop().fadeOut(400);
-    });
-
 });
