@@ -16,6 +16,12 @@ a {
     cursor: pointer;
     color: black;
 }
+.text a {
+    color: rgba(20, 145, 232, 0.9);
+}
+.text a:hover {
+    color: rgba(20, 145, 232, 0.65);
+}
 .clear {
     clear: both;
 }
@@ -148,7 +154,10 @@ a {
     font-weight: 600;
 }
 .subheader > a {
-    color: blue;
+    color: rgba(20, 145, 232, 0.9);
+}
+.subheader > a:hover {
+    color: rgba(20, 145, 232, 0.65);
 }
 .text {
     font-size: 14px;
@@ -181,18 +190,4 @@ a {
 #footer {
     text-align: center;
     margin-top: 20px;
-}
-.blue {
-    color: #005fa3;
-    display: inline;
-}
-.blue:hover {
-    color: #0075cb;
-}
-.grey {
-    color: grey;
-    display: inline;
-}
-.grey:hover {
-    color: black;
 }
