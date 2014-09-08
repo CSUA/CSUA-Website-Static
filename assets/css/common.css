@@ -126,9 +126,9 @@ a {
     }
 }
 .block {
-    border: 1px solid #c1c0c0;
+    border: 1px solid #CCC;
     padding: 15px;
-    background-color: #FAFAFA
+    background-color: #FAFAFA;
 }
 .blockseparation {
     margin-bottom: 20px;
@@ -167,6 +167,9 @@ a {
 .event-name {
     font-size: 17px;
     font-weight: 700;
+}
+.event-name:hover {
+    color: #AAA;
 }
 .event-photo {
     margin: 5px 0px;

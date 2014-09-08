@@ -25,14 +25,13 @@ $(document).ready(function(){
     });
 
     /* Events */
-    $('.event-name').hover(function() {
-        $(this).css({'color': 'grey'});
-    }, function() {
-        $(this).css({'color': 'black'});
+    $('.tab').hover(function() {
+        $('.tab').removeClass('tabhover');
+        $(this).addClass('tabhover');
     });
     $('.tab').click(function() {
-        $('.tab').css({'color': 'grey'});
-        $(this).css({'color': 'white'});
+        $('.tab').removeClass('tabcurrent');
+        $(this).addClass('tabcurrent');
     });
     $('#panels a').click(function(event) {
         var panel_id = $(this).attr('href');
