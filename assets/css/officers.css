@@ -40,3 +40,9 @@ table > tbody > tr > td:hover .phototwo {
 #past-officers {
     margin-top: 20px;
 }
+.name > a {
+    color: rgba(20, 145, 232, 0.9);
+}
+.name > a:hover {
+    color: rgba(20, 145, 232, 0.65);
+}
